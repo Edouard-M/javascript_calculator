@@ -1,0 +1,102 @@
+:root {
+    --color-main: #E9A072;
+    --color-second: #73BBC5;
+    --color-text: #45505B;
+    --color-white: #FFFFFF;
+    --color-debug: #006400;
+    --color-grey: #F2F3F5;
+    --font-Raleway: "Raleway", sans-serif;
+    --font-Poppins: "Poppins", sans-serif;
+
+    --font-Open: "Open sans", sans-serif;
+    --font-Bitter: "Passion One", sans-serif;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background: var(--color-white);
+    font-family: var(--font-Poppins);
+    padding-bottom: 5rem;
+}
+
+h1 {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    display: flex;
+    justify-content: center;
+    color: var(--color-main);
+    font-weight: 600;
+    font-size: 2.7rem;
+}
+
+.calculator{
+    background: var(--color-second);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    border-radius:35px; 
+    padding-bottom: 2rem;
+}
+
+.calculator_main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    text-justify: center;
+}
+
+.screen{
+    margin-top: 2rem;
+    justify-content: center;
+    text-justify: center;
+    text-align: center;
+    height: auto;
+    padding: 1.5rem 0 1.5rem 0;
+    background: var(--color-grey);
+    font-size: 2rem;
+    border-radius:20px;
+}
+
+.line{
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+button{
+    border-style: none;
+    background: var(--color-text);
+    color: var(--color-white);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    border-style: none;
+    background: var(--color-main);
+}
